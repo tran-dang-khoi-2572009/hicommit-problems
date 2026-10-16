@@ -2,7 +2,6 @@
 
 int main() {
   int t;
-  scanf("%d", t);
    if(t <= 15){
      printf("LANH\n");
    }
@@ -15,5 +14,6 @@ int main() {
   else{
     printf("RAT_NONG\n");
   } 
+  scanf("%d", t);
   return 0;
 }
