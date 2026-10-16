@@ -3,7 +3,6 @@
 int main() {
   int t;
   scanf("%d", t);
-  if(t == 1){
    if(t <= 15){
      printf("LANH\n");
    }
