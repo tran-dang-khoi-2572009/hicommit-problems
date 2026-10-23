@@ -15,10 +15,10 @@ int main() {
   else if (dtb >= 6.50 && dtb <= 6.99){
     printf("C+");
   }
-  else if (dtb >= 5.50 && dtb <= 6.4){
+  else if (dtb >= 5.50 && dtb <= 6.49){
     printf("C");
   }
-  else if (dtb >= 5.00 && dtb <= 5.4){
+  else if (dtb >= 5.00 && dtb <= 5.49){
     printf("D+");
   }
   else if (dtb >= 4.00 && dtb <= 4.99){
