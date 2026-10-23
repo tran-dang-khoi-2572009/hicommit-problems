@@ -3,13 +3,13 @@
 int main() {
   float dtb;
   scanf("%d", &dtb);
-  if (dtb >= 9.0 && dtb <= 10.0){
+  if (dtb >= 9.00 && dtb <= 10.00){
     printf("A");
   }
-  else if(dtb >= 8.0 && dtb <= 8.9){
+  else if(dtb >= 8.00 && dtb <= 8.99){
     printf("B+");
   }
-  else if (dtb >= 7.0 && dtb <= 7.9){
+  else if (dtb >= 7.00 && dtb <= 7.99){
     printf("B");
   }
   else if (dtb >= 6.5 && dtb <= 6.9){
