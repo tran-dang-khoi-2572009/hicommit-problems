@@ -17,6 +17,6 @@ int main() {
     } else {
         tien = 909000LL + 2927LL * (k - 400);
     }
-    printf("%ll", tien);
+    printf("%d", tien);
   return 0;
 }
