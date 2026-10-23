@@ -21,6 +21,7 @@ int main() {
   }
   else{
     tien = 50LL * 1876 + 50LL * 1734 + 50LL * 2014 + 50LL * 2536 + 50LL * 2834 + 2927LL * (k - 400);
- }
+  }
+    printf("%ll", tien);
   return 0;
 }
