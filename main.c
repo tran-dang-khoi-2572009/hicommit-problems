@@ -11,7 +11,7 @@ int main() {
   else {
     tien =  15000 + 4 * 13000 + (d - 5) + 11000;
   }
-  printf ("%0.lf", &tien);
+  printf ("%0.lf" , tien);
    
   return 0;
 }
