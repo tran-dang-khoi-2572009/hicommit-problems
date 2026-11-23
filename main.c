@@ -1,8 +1,13 @@
 #include <stdio.h>
 
-int main(void) {
-  float gpa, min;
+int main() 
+{
+  float gpa;
+  float min;
   int abs;
+  scanf("%f", &gpa);
+  scanf("%f", &min);
+  scanf("%d", &abs);
   if (abs > 3){
     printf("FAIL_ATTENDANCE");
   }
