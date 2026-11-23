@@ -3,7 +3,7 @@
 int main() {
   double d;
   int tien;
-  scanf ("%d", &tien);
+  scanf ("%lf", &d);
   if (d <= 1){
     tien = d * 15000;
   }
