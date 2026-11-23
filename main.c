@@ -18,7 +18,7 @@ int main() {
      else if ((m == 4 || m == 6 || m == 9 || m == 11) && d>=1 && d<=30 && m>=1 && m>=12){
          printf("VALID");
     }
-     else if ((m == 2 && d>=1 && d<=29 && m>=1 && m>=12){
+     else if (m == 2 && d>=1 && d<=29 && m>=1 && m>=12){
          printf("VALID");
     }
      else{
@@ -32,7 +32,7 @@ int main() {
      else if ((m == 4 || m == 6 || m == 9 || m == 11) && d>=1 && d<=30 && m>=1 && m>=12){
          printf("VALID");
     }
-     else if ((m == 2 && d>=1 && d<=28 && m>=1 && m>=12){
+     else if (m == 2 && d>=1 && d<=28 && m>=1 && m>=12){
          printf("VALID");
     }
      else{
