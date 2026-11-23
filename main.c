@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
   double d, tien;
   scanf ("%lf", &d);
@@ -12,7 +11,7 @@ int main() {
   else {
     tien =  15000 + 4 * 13000 + (d - 5) + 11000;
   }
-  scanf("%d", &tien);
+  scanf("%lf", &tien);
    
   return 0;
 }
