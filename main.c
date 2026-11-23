@@ -12,13 +12,13 @@ int main() {
   else if (min < 4.0){
     printf("FAIL_SUBJECT");
   }
-  if (gpa >= 8.0 || min >= 7.0){
+  if (gpa >= 8.0 && min >= 7.0){
     printf("EXCELLENT");
   }
-  else if (gpa >= 6.5 || min >= 5.0){
+  else if (gpa >= 6.5 && min >= 5.0){
     printf("GOOD");
   }
-  else if (gpa >= 5.0 || min >= 4.0){
+  else if (gpa >= 5.0 && min >= 4.0){
     printf("PASS");
   }
   else{
