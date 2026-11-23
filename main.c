@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   float gpa, min;
   int abs;
   if (abs > 3){
