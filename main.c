@@ -13,7 +13,7 @@ int main() {
   else {
     tien = 1 * 15000 + 4 * 13000 + (d - 5) + 11000;
   }
-  scanf("%lf", &d);
+  scanf("%d", &tien);
    
   return 0;
 }
